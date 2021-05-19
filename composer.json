@@ -1,0 +1,21 @@
+{
+  "name": "wangqs/querylist-rule-weibo-article",
+  "description": "QueryList Plugin: weibo article searcher. QueryList微博文章搜索插件",
+  "require": {
+    "PHP": ">=7.0"
+  },
+  "require-dev": {
+    "jaeger/querylist": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "QL\\Ext\\": ""
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wangqs"
+    }
+  ]
+}
