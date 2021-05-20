@@ -16,8 +16,8 @@
 
 		const API = 'https://s.weibo.com/article';
 		const RULES = [
-			'title' => [ '.h3' , 'text' ] ,
-			'link'  => [ '.h3>a' , 'href' ]
+			'title' => [ 'h3' , 'text' ] ,
+			'link'  => [ 'h3>a' , 'href' ]
 		];
 		const RANGE = '.card-wrap';
 		protected $ql;
